@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Exemplo</title>
+
+
+    <link rel="stylesheet" href="estruturabasica.css">
+    <!-- acima esta o codigo que ligara o arquivo de exemplo ao css externo
+     como o arquivo e um arquivo html
+     deve-se usar a tag link dentro de head com os atributos
+     rel com valor stylesheet e
+     href com o valor da origem do arquivo que esta o css
+     ou seja, o css que vem de fora
+     repare no caminho do arquivo, ambos estao no mesmo nivel da pasta -->
+
+
+
+     <!-- tambem e possivel usar css dentro de um arquivo ja existente
+      o nome desse tipo de css e chamado de "css interno"
+      para usar este tipo de css no arquivo de exemplo atual que e um arquivo html
+      usa-se dentro da tag head, a tag style -->
+
+    <style>
+        /* h2{
+        font-size: 100px;
+        }
+
+        acima esta um simples comando que modificar todos os elementos h2
+        apos as chaves({) esta o que foi modificado para estilo
+        que no caso e: font-size: 100px;
+        px significar pixels
+        esse comando apenas aumentar o tamanho da fonte de TODOS OS H2 para 100 pixels de tamanho
+        ou seja, no html, os h2 terao seus visuais alterados conforme o bloco de comandos({ })
+        */
+
+
+
+        /* #par2{
+            font-size: 30px;
+        }
+
+        acima esta um simples bloco de comandos css que modificar o elemento com id: par2
+        a "#" faz referencia ao id que esta no html
+        repare na diferença entre o primeiro bloco de comados que modificar h2 com este
+        */
+
+
+
+        /* .claspar2{
+            font-size: 15px;
+        }
+
+        acima esta um simples bloco de comandos css que modificar os elementos com class: clapar2
+        o "." faz referencia a class que esta no html
+        bem semelhante ao bloco de comandos anterior que trabalhava com id
+        */
+
+
+
+        /* por fim, o codigo abaixo sem comentarios */
+        h2{
+           font-size: 100px;
+        }
+
+        #par2{
+           font-size: 30px;
+        }
+
+        .claspar2{
+           font-size: 15px;
+        }
+        /*
+          nao esqueca de verificar o css inline no html abaixo!
+        */
+    </style>
+</head>
+    <body>
+        <h1> Sou um Titulo</h1>
+        <p id="par1">Sou um paragrafo com id</p>
+        <p class="clapar">Sou um paragrafo com class</p>
+
+        <h2> Sou um Titulo</h2>
+        <p id="par2">Sou um paragrafo com id</p>
+        <p class="clapa2">Sou um paragrafo com class</p>
+
+
+        <!-- por fim, o css inline
+         o css inline diferente do css externo e interno
+         ele ja trabalhar diretamente com o elemento
+         no arquivo html que esta sendo usado como exemplo
+         bastar passar o atributo style e seus respectivos comandos apos como valor
+         seguir os exemplos abaixo
+         -->
+        <h3 style="font-size: 100px;"> Sou um Titulo</h3>
+        <p style="font-size: 25px;">Sou um paragrafo com id</p>
+        <p style="font-size: 15px;">Sou um paragrafo com class</p>
+    </body>
+</html>
