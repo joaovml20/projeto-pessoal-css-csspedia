@@ -1,51 +1,4 @@
-/* Todo codigo css deve esta em um arquivo com extensao .css
-  Um exemplo disso é esse proprio arquivo: estruturabasica.css */
-
-/* antes de começar a mostrar o codigo, verifique se este arquivo esta ligado ao conteudo desejado
-   Nesse exemplo, o arquivo utilizado e um arquivo html 
-   entao verifique se no html esta fazendo ligacao com o "css externo"
-   ou melhor, o css que vem de fora 
-   que no caso e esse arquivo com o codigo */
-
-
-
-/* h1{
-    font-size: 100px;
-}
-
-  acima esta um simples comando que modificar todos os elementos h1
-  apos as chaves({) esta o que foi modificado para estilo
-  que no caso e: font-size: 100px;
-  px significar pixels
-  esse comando apenas aumentar o tamanho da fonte de TODOS OS H1 para 100 pixels de tamanho
-  ou seja, no html, os h1 terao seus visuais alterados conforme o bloco de comandos({ })
-*/
-
-
-
-/* #par1{
-    font-size: 20px;
-}
-
-  acima esta um simples bloco de comandos css que modificar o elemento com id: par1
-  a "#" faz referencia ao id que esta no html
-  repare na diferença entre o primeiro bloco de comados que modificar h1 com este
-*/
-
-
-
-/* .claspar{
-     font-size: 10px;
-}
-
-  acima esta um simples bloco de comandos css que modificar os elementos com class: clapar
-  o "." faz referencia a class que esta no html
-  bem semelhante ao bloco de comandos anterior que trabalhava com id
-*/
-
-
-
-/* por fim, o codigo abaixo sem comentarios */
+/* por fim, o codigo da estrutura basica abaixo sem comentarios */
 h1{
     font-size: 100px;
 }
@@ -57,6 +10,12 @@ h1{
  .claspar{
      font-size: 10px;
 }
+
+/* verifique se o arquivo esta ligado ao conteudo desejado
+   Nesse exemplo, o arquivo utilizado e um arquivo html 
+   entao verifique se no html esta fazendo ligacao com o "css externo"
+   ou melhor, o css que vem de fora 
+   que no caso e esse arquivo com o codigo */
 
 /*
   verifique tambem o css interno e inline no arquivo de exemplo

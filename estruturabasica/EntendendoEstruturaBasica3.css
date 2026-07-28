@@ -1,0 +1,8 @@
+#par1{
+    font-size: 20px;
+}
+
+/* acima esta um simples bloco de comandos css que modificar o elemento com id: par1
+  a "#" faz referencia ao id que esta no html
+  repare na diferença entre o bloco de comados que modificar h1 com este
+*/

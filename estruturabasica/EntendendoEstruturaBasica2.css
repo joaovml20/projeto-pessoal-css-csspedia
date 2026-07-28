@@ -1,0 +1,12 @@
+h1{
+    font-size: 100px;
+}
+
+/* acima esta um simples comando que modificar todos os elementos h1
+  apos as chaves({) esta o que foi modificado para estilo ate o fim das chaves
+  que no caso e: font-size: 100px;
+  px significar pixels
+  esse comando apenas aumentar o tamanho da fonte de TODOS OS H1 para 100 pixels de tamanho
+  ou seja, no html, os h1 terao seus visuais alterados conforme o bloco de comandos({ })
+*/
+
