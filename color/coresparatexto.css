@@ -1,0 +1,49 @@
+#p1{
+    color: blue;
+}
+
+/* O comando acima altera a cor do texto para blue
+é possivel usar outros nomes como red e green
+mas tbm é possivel usar outras unidades de medidas de cores
+seguir os exemplos abaixo */
+
+#p2{
+    color: #aabbcc;
+    /*cor em hexadecimal onde
+    aa representa a intensidade do vermelho 
+    bb representa a intensidade do verde e 
+    cc representa a intensidade do azul
+    sendo o valor minimo 00 e o valor maximo ff que em hexadecimal é 255 */
+}
+
+#p3{
+    color: rgb(000,127,255);
+    /*cor em rgb onde
+    000 representa a intensidade do vermelho
+    127 representa a intendidade do verde
+    255 representa a intensidade do azul
+    o valor minimo é 000 e o maximo é 255
+    */
+}
+
+#p4{
+    color: rgba(000,127,255,0.5);
+    /*cor em rgba
+    similar a rgb porem adicionar um canal a mais, o alfa
+    o alfa define a transparencia da cor onde
+    o valor minimo é 0 e o maximo é 1 */
+}
+
+#p5{
+    color:hsl(0,100%,50%);
+    /*cor em hsl onde
+    0 representa o grau do circulo de cores(circulo cromatico)
+    100% representa a saturação da cor, onde o minimo é 0% e o maximo 100%
+    50% representa o brilho, onde o minimo é 0% e o maximo é 100% 
+    */
+}
+
+#p6{
+    color:hsla(180,50%,33%,0.7);
+    /*similar a hsl mas adicionar o canal alfa igual em rgba*/
+}
