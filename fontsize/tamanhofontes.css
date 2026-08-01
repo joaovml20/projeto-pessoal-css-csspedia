@@ -1,0 +1,24 @@
+#p1{
+    font-size: 20px;
+    /*propriedade font-size
+    ela é responsavel por mudar o tamanho dos textos
+    no exemplo acima, o texto sera mudado para 20 pixels por conta da unidade de medida px
+    existem outras unidades de medidas alem de px, seguir os exemplos abaixo
+    */
+}
+
+#div1{
+    font-size: 15px;
+}
+
+#p2{
+    font-size: 1em;
+    /*a unidade de medida "em" depende do elemento "pai" 
+    no exemplo, acima o elemento com id="p2" esta contido pelo elemento que tem o id="div1" no html, ou seja, seu pai
+    e com isso, a unidade de medida "em" assume o valor do font-size do pai, que é 15px
+    entao 1em = 15px em nosso exemplo
+    é possivel passar outros numeros alem de 1 em 'em' por exemplo:
+    2em, ocorreria uma multiplicação como:
+    2em = 2 x 15px = 30px
+    */
+}

@@ -1,0 +1,26 @@
+html {
+    font-size: 12px;
+}
+
+p{
+    font-size: 1rem;
+    /*a unidade de medida rem em font-size é parecido com 'em'
+    mas ela depende do elemento raiz, ou seja, em nosso exemplo, do elemento html
+    como html tem a propriedade font-size: 12px logo 1rem sera 12px tbm
+    assim como em, se passado outro numero alem de 1, ocorrera uma multiplicação como:
+    3rem = 3 x 12px = 36px;*/
+}
+
+#p3{
+    font-size: 1vw;
+    /* A unidade de medida vw em font-size se refere a largura do viewport, ou, a area visivel da janela
+    logo 1vw se refere a 1% da largura do viewport 
+    é possivel usar outros numeros alem de 1 em vw como 2, 2vw que seria 2% da largura do viewport*/
+}
+
+#p4{
+     font-size: 2vh;
+    /* A unidade de medida vh, similar a vw porem trabalahar com a altura do viewport, ou, a area visivel da janela
+    logo 2vh se refere a 2% da altura do viewport 
+    é possivel usar outros numeros alem de 2 em vh como 1, 1vh que seria 1% da altura do viewport*/
+}
