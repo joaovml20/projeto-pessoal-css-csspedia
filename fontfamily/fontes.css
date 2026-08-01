@@ -1,0 +1,7 @@
+p{
+    font-family: helvetica;
+    /* propriedade font-family
+    Ela é responsavel por mudar a fonte do texto
+    no exemplo acima, os textos dos elementos p teram sua fonte mudada para helvetica
+    existem inumeras fontes para texto, helvetica apenas esta sendo usada como exemplo */
+}

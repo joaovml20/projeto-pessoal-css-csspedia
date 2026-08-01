@@ -1,0 +1,7 @@
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    /* É possivel passar para font-family mais de uma fonte mas cada fonte sera carregada em momentos diferentes
+    primeiro a aplicação tentara carrega a primeira fonte da fila, que no caso é Arial
+    caso Arial não carregue, tentara helvetica e assim por diante
+    */
+}
